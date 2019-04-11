@@ -18,5 +18,6 @@ puts "Welcome, #{name_end_line}. You are number #{katz_deli.length} in line."
 end 
 
 def now_serving(katz_deli)
-  
+  if katz_deli.empty?
+    puts "There is nobody waiting to be served!"
 end 
