@@ -16,3 +16,7 @@ def take_a_number(katz_deli, name_end_line)
   katz_deli << name_end_line
 puts "Welcome, #{name_end_line}. You are number #{katz_deli.length} in line." 
 end 
+
+def now_serving(katz_deli)
+  
+end 
